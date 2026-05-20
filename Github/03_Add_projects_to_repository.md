@@ -48,12 +48,10 @@ git status
 | `git push`                     | Pushes current branch using saved remote settings                      | Daily use after upstream is configured               |
 
 
-### Common Workflow
+### Common Workflow:
 
 First time: git push -u origin main
-
 After that (regular use): git push
-
 Only if history changed: git push --force
 
 
