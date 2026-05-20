@@ -7,6 +7,8 @@ Here is the step-by-step breakdown of how it handles a request:
 ### **1. The Embedded Server Starts**
 
 When you run the `main()` method of your Spring Boot application, it doesn't just run your code—it actually starts an internal web server (usually **Apache Tomcat**).
+work flow:
+![flowchart](image-5.png)
 
 * In traditional Spring, you had to install Tomcat on your computer separately.
 * In Spring Boot, Tomcat is just a library inside your `.jar` file. It starts up on port **8080** by default.
