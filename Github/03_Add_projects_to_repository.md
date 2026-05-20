@@ -51,7 +51,9 @@ git status
 ### Common Workflow:
 
 First time: git push -u origin main
+
 After that (regular use): git push
+
 Only if history changed: git push --force
 
 
